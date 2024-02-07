@@ -28,11 +28,12 @@ html {
   flex-direction: column;
   align-items: center;
   background-color: #fff;
-  transition: background-color 0.1s, border-radius 0.1s; }
+  transition-delay: 1s;
+  transition: background-color 1s, border-radius 1s; }
   .person:hover {
     background-color: #e5e5e5;
     border-radius: 10px; }
-    .person:hover__details {
+    .person:hover .person__details--extra {
       display: block; }
   .person__photo {
     width: 200px;
@@ -54,8 +55,7 @@ html {
     align-items: center;
     font-weight: 700;
     background-color: #fff;
-    border-radius: 50%;
-    color: #8b0000; }
+    border-radius: 50%; }
   .person__details {
     padding: 8px;
     font-size: 20px;
@@ -64,12 +64,9 @@ html {
     text-align: center; }
     .person__details--extra {
       display: none;
-      font-size: 16px;
-      font-weight: 400; }
-      .person__details--extra--sport {
-        color: #8b0000; }
-      .person__details--extra--pay {
-        color: #8b0000; }
+      font-size: 21px;
+      font-weight: 400;
+      color: #000; }
 
 
 /*# sourceMappingURL=/main.39afc03c.css.map */
