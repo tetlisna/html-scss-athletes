@@ -39,14 +39,14 @@ html {
     align-items: center;
 
     background-color: #fff;
-
-    transition: background-color 0.1s, border-radius 0.1s;
+    transition-delay: 1s;
+    transition: background-color 1s, border-radius 1s;
 
     &:hover {
         background-color: $color-hover;
         border-radius: 10px;
 
-        &__details {
+        .person__details--extra {
             display: block;
         }
     }
@@ -78,11 +78,7 @@ html {
         font-weight: 700;
         background-color: #fff;
         border-radius: 50%;
-        color: $color-secondary;
     }
-
-    // :hover {
-    //     display: block;
 
     &__details {
         padding: 8px;
@@ -93,17 +89,9 @@ html {
 
         &--extra {
             display: none;
-            font-size: 16px;
+            font-size: 21px;
             font-weight: 400;
-
-            &--sport {
-                color: $color-secondary;
-            }
-
-            &--pay {
-                color: $color-secondary;
-            }
+            color: #000;
         }
-        // }
     }
 }
